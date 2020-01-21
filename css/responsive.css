@@ -1,0 +1,26 @@
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    /*course grids*/
+    #courses-grid {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+}
+
+@media all and (min-width: 1000px) {
+    /*carousel*/
+    #slideshow img {
+        height: 700px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    /*form*/
+    .top-fields {
+        display: block;
+    }
+    input[type="text"] {
+        margin-bottom: 10px;
+    }
+    footer .footer-grid {
+        font-size: 11px;
+    }
+}
