@@ -23,7 +23,12 @@ $(document).ready(function () {
                 scrollTop: $(hash).offset().top
             }, 800, function () {
 
-                window.location.hash = hash;
+                if (hash === "#slideshow") {
+                    return;
+                }
+                else {
+                    window.location.hash = hash;
+                }
             });
         }
     });
