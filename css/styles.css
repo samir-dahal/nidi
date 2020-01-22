@@ -129,6 +129,11 @@ section {
 #gallery img {
     cursor: pointer;
     width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+#gallery img:hover {
+    filter: grayscale(100%);
 }
 
 /*form*/
