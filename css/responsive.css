@@ -24,3 +24,13 @@
         font-size: 11px;
     }
 }
+
+@media all and (max-width: 362px) {
+    /*nav heading*/
+    #heading {
+        font-size: 3vw;
+    }
+    .navbar-toggler {
+        font-size: 10px;
+    }
+}
