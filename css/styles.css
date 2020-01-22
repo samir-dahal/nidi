@@ -221,3 +221,14 @@ footer .phone {
     color: white;
     text-decoration: none;
 }
+
+/*overlay*/
+
+.overlay.active {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
