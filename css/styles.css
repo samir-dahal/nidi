@@ -39,6 +39,13 @@ section {
     padding-top: 85px;
 }
 
+/*scrollspy color*/
+
+a.active {
+    color: white !important;
+    font-weight: bold !important;
+}
+
 /*caraousel slides*/
 
 #slideshow .carousel-item {
