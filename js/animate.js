@@ -15,6 +15,7 @@ $(document).ready(function () {
     $("a").on('click', function (event) {
         if ($('#menu').hasClass('show')) {
             $('#menu').removeClass('show');
+            $('.overlay').removeClass('active');
         }
         if (this.hash !== "") {
             event.preventDefault();
